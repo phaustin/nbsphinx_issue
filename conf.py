@@ -51,7 +51,12 @@ mathjax_config = {
     }
 }
 
-nbsphinx_custom_formats = {".py": lambda s: jupytext.reads(s, ".py")}
+nbsphinx_execute_arguments = [
+    "--InlineBackend.figure_formats={'svg','pdf','png'}",
+    "--InlineBackend.rc={'figure.dpi': 96}",
+]
+
+#nbsphinx_custom_formats = {".py": lambda s: jupytext.reads(s, ".py")}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
