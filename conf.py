@@ -51,10 +51,10 @@ mathjax_config = {
     }
 }
 
-nbsphinx_execute_arguments = [
-    "--InlineBackend.figure_formats={'svg','pdf','png'}",
-    "--InlineBackend.rc={'figure.dpi': 96}",
-]
+# nbsphinx_execute_arguments = [
+#     "--InlineBackend.figure_formats={'svg','pdf','png'}",
+#     "--InlineBackend.rc={'figure.dpi': 96}",
+# ]
 
 #nbsphinx_custom_formats = {".py": lambda s: jupytext.reads(s, ".py")}
 

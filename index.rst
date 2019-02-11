@@ -5,5 +5,11 @@ ________________
    :maxdepth: 1
    :numbered: 2           
 
+   img_fig_eq.ipynb
 
-   Lecture 5: <Lec5_Euler_debug.ipynb>
+   md_fig_eq.ipynb
+
+   md_eqonly.ipynb
+  
+
+   
